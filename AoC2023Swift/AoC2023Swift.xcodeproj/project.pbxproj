@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2184D40F2B1A18C10088148E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184D40E2B1A18C10088148E /* main.swift */; };
+		21B87A732B1A1B9F00D5CFBD /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B87A722B1A1B9F00D5CFBD /* FileReader.swift */; };
+		21B87A752B1A21F800D5CFBD /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B87A742B1A21F800D5CFBD /* Day1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		2184D40B2B1A18C10088148E /* AoC2023Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AoC2023Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2184D40E2B1A18C10088148E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		21B87A722B1A1B9F00D5CFBD /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		21B87A742B1A21F800D5CFBD /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		21B87A762B1A222400D5CFBD /* Day1input.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Day1input.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				2184D40E2B1A18C10088148E /* main.swift */,
+				21B87A722B1A1B9F00D5CFBD /* FileReader.swift */,
+				21B87A742B1A21F800D5CFBD /* Day1.swift */,
+				21B87A762B1A222400D5CFBD /* Day1input.markdown */,
 			);
 			path = AoC2023Swift;
 			sourceTree = "<group>";
@@ -120,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B87A732B1A1B9F00D5CFBD /* FileReader.swift in Sources */,
+				21B87A752B1A21F800D5CFBD /* Day1.swift in Sources */,
 				2184D40F2B1A18C10088148E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
